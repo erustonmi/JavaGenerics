@@ -9,6 +9,7 @@ public class DataAccessTester {
 		System.out.println("here2");
 		da = new Db2Access();
 		System.out.println("here3");
+		System.out.println("getData returns " + da.getData(20161018));
 	}
 
 }
